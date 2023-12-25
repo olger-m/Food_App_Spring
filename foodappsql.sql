@@ -14,7 +14,7 @@ CREATE TABLE `food` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
-INSERT INTO food (name, description, price, favorite, star, tags, imageUrl, cook_Time, origins) VALUES
+INSERT INTO food (name, description, price, favorite, star, tags, image_url, cook_Time, origins) VALUES
 ('Strawberry Cake', 'Golden-brown cake, velvety frosting, and fresh strawberries. Layers of rich chocolate and vanilla. A visual delight with swirls and chocolate shavings. Perfect for dessert lovers.', 4.5, 0, NULL, NULL, 'https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8N3x8fGVufDB8fHx8fA%3D%3D', '40', NULL),
 ('Food Bowl', 'A vibrant food bowl featuring fresh veggies, tender proteins, and flavorful grains for a delicious and balanced meal.', 5.5, 0, NULL, NULL, 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D', '10', NULL),
 ('Banana Pancake', 'Fluffy and golden pancakes, a breakfast classic. Served hot, drizzled with syrup, and ready to melt in your mouth.', 5.8, 0, NULL, NULL, 'https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8fA%3D%3D', '20', NULL),
