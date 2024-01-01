@@ -5,7 +5,9 @@ import jakarta.persistence.*;
 import lombok.*;
 import org.antlr.v4.runtime.misc.NotNull;
 
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 @Entity
 @Table
@@ -27,10 +29,13 @@ public class Food {
     private boolean favorite = false;
     private Double star;
     private String tags;
-    @Column(name = "imageUrl" ,nullable=false)
+    @Column(nullable=false)
     private String imageUrl;
     private String cookTime;
     private String origins;
+    @ManyToMany
+    private List<Order> orders;
+
     // categoryId!:number;
 
 }

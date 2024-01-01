@@ -24,6 +24,9 @@ public class FoodController {
     public List<Food> getAllFoods(){
         return this.foodService.getAllFoods();
     }
+
+
+
     @GetMapping("foods/{id}")
     public Food getFoodById(@PathVariable Long id) {
         return foodService.getFoodById(id);
@@ -48,7 +51,7 @@ public class FoodController {
         return ResponseEntity.ok(updatedFood);
     }
 
-    @DeleteMapping("foods/{id}")
+    @DeleteMapping("/foods/{id}")
     public void deleteFood(@PathVariable Long id) {
         foodService.deleteFood(id);
     }
